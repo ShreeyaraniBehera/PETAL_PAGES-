@@ -1,0 +1,86 @@
+:root {
+    --brown: #4A202A;
+    --blush: #D86487;
+    --metallic-pink: #EEAAC3;
+    --pale-pink: #F1DFDD;
+    --claret: #76172C;
+
+    --bg-main: var(--pale-pink);
+    --text-dark: #2a1a1f;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-main);
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-dark);
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3 {
+    font-family: 'Bodoni Moda', serif;
+    letter-spacing: 1px;
+}
+
+.script {
+    font-family: 'Great Vibes', cursive;
+}
+
+/* BUTTON */
+button {
+    background: var(--claret);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: var(--blush);
+}
+
+/* INPUTS */
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    margin: 8px 0;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background: var(--brown);
+    position: fixed;
+    padding: 25px;
+}
+
+.sidebar a {
+    display: block;
+    margin: 15px 0;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.sidebar a:hover {
+    color: var(--metallic-pink);
+}

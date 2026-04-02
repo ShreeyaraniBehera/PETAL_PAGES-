@@ -1,0 +1,24 @@
+@import url('main.css');
+
+h3 {
+    margin-left: 220px;
+    padding-left: 20px;
+}
+
+.stickers {
+    margin-left: 220px;
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.sticker {
+    width: 70px;
+    cursor: grab;
+    transition: 0.3s;
+}
+
+.sticker:hover {
+    transform: scale(1.1) rotate(5deg);
+}

@@ -1,0 +1,24 @@
+@import url('main.css');
+
+.calendar {
+    margin-left: 220px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+}
+
+.day {
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    text-align: center;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.day:hover {
+    background: var(--metallic-pink);
+    transform: translateY(-5px);
+}

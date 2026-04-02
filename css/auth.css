@@ -1,0 +1,21 @@
+@import url('main.css');
+
+.auth-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, var(--pale-pink), var(--metallic-pink));
+}
+
+.auth-container h1 {
+    margin-bottom: 15px;
+}
+
+.auth-container form {
+    margin-bottom: 15px;
+}
+
+.auth-container hr {
+    margin: 15px 0;
+}

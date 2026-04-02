@@ -1,0 +1,24 @@
+@import url('main.css');
+
+form {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+ul {
+    margin-left: 220px;
+    padding: 20px;
+    list-style: none;
+}
+
+li {
+    background: white;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+}
+
+li:hover {
+    background: var(--metallic-pink);
+}

@@ -1,0 +1,19 @@
+@import url('main.css');
+
+.moods {
+    margin-left: 220px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mood {
+    width: 70px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.mood:hover {
+    transform: scale(1.2);
+}

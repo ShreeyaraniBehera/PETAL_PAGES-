@@ -1,0 +1,16 @@
+@import url('main.css');
+
+form {
+    margin-left: 220px;
+    padding: 30px;
+}
+
+textarea {
+    height: 250px;
+    resize: none;
+    background: white;
+}
+
+select {
+    background: white;
+}
